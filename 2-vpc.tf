@@ -4,6 +4,6 @@
 #   enable_dns_hostnames = true
 
 #   tags = {
-#     Name = "Pod12"
+#     Name = "Pod12" 12
 #   }
 # }
