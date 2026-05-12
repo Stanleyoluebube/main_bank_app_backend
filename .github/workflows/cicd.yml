@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ECR_REGISTRY: 755545428276.dkr.ecr.us-west-2.amazonaws.com
-      ECR_REPOSITORY: backend-testing
+      ECR_REPOSITORY: pod12-backend
       AWS_REGION: us-west-2
       IMAGE_TAG: ${{ github.run_number }}
 
@@ -58,7 +58,7 @@ jobs:
     needs: Continues-Integration_build_and_push
     env:
       ECR_REGISTRY: 755545428276.dkr.ecr.us-west-2.amazonaws.com
-      ECR_REPOSITORY: backend-testing
+      ECR_REPOSITORY: pod12-backend
       IMAGE_TAG: ${{ github.run_number }}
     # steps:
     # - name: Checkout repository
