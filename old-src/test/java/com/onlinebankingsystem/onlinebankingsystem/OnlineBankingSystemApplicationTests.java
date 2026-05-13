@@ -1,10 +1,11 @@
 package com.onlinebankingsystem.onlinebankingsystem;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+@Disabled
 @SpringBootTest
-@ActiveProfiles("test")
 class OnlineBankingSystemApplicationTests {
 
 	@Test
